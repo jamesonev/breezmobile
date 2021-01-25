@@ -116,7 +116,7 @@ class _PosPaymentDialogState extends State<PosPaymentDialog> {
               highlightColor: Colors.transparent,
               padding: EdgeInsets.only(
                   top: 8.0, bottom: 8.0, right: 2.0, left: 14.0),
-              icon: Icon(IconData(0xe917, fontFamily: 'icomoon')),
+              icon: Icon(const IconData(0xe917, fontFamily: 'icomoon')),
               color: Theme.of(context).primaryTextTheme.button.color,
               onPressed: () {
                 ShareExtend.share(
@@ -128,7 +128,7 @@ class _PosPaymentDialogState extends State<PosPaymentDialog> {
               highlightColor: Colors.transparent,
               padding: EdgeInsets.only(
                   top: 8.0, bottom: 8.0, right: 14.0, left: 2.0),
-              icon: Icon(IconData(0xe90b, fontFamily: 'icomoon')),
+              icon: Icon(const IconData(0xe90b, fontFamily: 'icomoon')),
               color: Theme.of(context).primaryTextTheme.button.color,
               onPressed: () {
                 ServiceInjector()

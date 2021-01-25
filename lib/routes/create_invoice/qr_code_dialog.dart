@@ -132,7 +132,7 @@ class QrCodeDialogState extends State<QrCodeDialog>
                                       right: 2.0,
                                       left: 14.0),
                                   icon: Icon(
-                                      IconData(0xe917, fontFamily: 'icomoon')),
+                                      const IconData(0xe917, fontFamily: 'icomoon')),
                                   color: Theme.of(context)
                                       .primaryTextTheme
                                       .button
@@ -152,7 +152,7 @@ class QrCodeDialogState extends State<QrCodeDialog>
                                       right: 14.0,
                                       left: 2.0),
                                   icon: Icon(
-                                      IconData(0xe90b, fontFamily: 'icomoon')),
+                                      const IconData(0xe90b, fontFamily: 'icomoon')),
                                   color: Theme.of(context)
                                       .primaryTextTheme
                                       .button

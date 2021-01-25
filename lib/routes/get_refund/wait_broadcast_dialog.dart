@@ -159,7 +159,7 @@ class _WaitBroadcastDialog extends State<WaitBroadcastDialog> {
                       iconSize: 16.0,
                       color: Theme.of(context).primaryTextTheme.button.color,
                       icon: Icon(
-                        IconData(0xe90b, fontFamily: 'icomoon'),
+                        const IconData(0xe90b, fontFamily: 'icomoon'),
                       ),
                       onPressed: () {
                         ServiceInjector()

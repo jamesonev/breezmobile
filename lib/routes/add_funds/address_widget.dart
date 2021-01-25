@@ -90,7 +90,7 @@ class AddressWidget extends StatelessWidget {
       return _icons;
     }
     Widget _shareIcon = IconButton(
-      icon: Icon(IconData(0xe917, fontFamily: 'icomoon')),
+      icon: Icon(const IconData(0xe917, fontFamily: 'icomoon')),
       color: Theme.of(context).buttonColor,
       onPressed: () {
         final RenderBox box = context.findRenderObject();
@@ -99,7 +99,7 @@ class AddressWidget extends StatelessWidget {
       },
     );
     Widget _copyIcon = IconButton(
-      icon: Icon(IconData(0xe90b, fontFamily: 'icomoon')),
+      icon: Icon(const IconData(0xe90b, fontFamily: 'icomoon')),
       color: Theme.of(context).buttonColor,
       onPressed: () {
         ServiceInjector().device.setClipboardText(address);

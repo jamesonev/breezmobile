@@ -332,7 +332,7 @@ class ShareablePaymentRow extends StatelessWidget {
                             color:
                                 Theme.of(context).primaryTextTheme.button.color,
                             icon: Icon(
-                              IconData(0xe90b, fontFamily: 'icomoon'),
+                              const IconData(0xe90b, fontFamily: 'icomoon'),
                             ),
                             onPressed: () {
                               ServiceInjector()

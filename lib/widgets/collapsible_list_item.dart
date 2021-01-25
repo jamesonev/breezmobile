@@ -72,7 +72,7 @@ class CollapsibleListItem extends StatelessWidget {
                                       .button
                                       .color,
                               icon: Icon(
-                                IconData(0xe90b, fontFamily: 'icomoon'),
+                                const IconData(0xe90b, fontFamily: 'icomoon'),
                               ),
                               onPressed: () {
                                 ServiceInjector()

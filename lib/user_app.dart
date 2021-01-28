@@ -75,7 +75,7 @@ class UserApp extends StatelessWidget {
                   accountBloc.accountStream, lspBloc.lspStatusStream),
               builder: (ctx) => MaterialApp(
                     navigatorKey: _navigatorKey,
-                    title: 'Breez',
+                    title: 'Carrot',
                     theme: theme.themeMap[user.themeId],
                     builder: (BuildContext context, Widget child) {
                       final MediaQueryData data = MediaQuery.of(context);

@@ -50,7 +50,7 @@ class _StatusTextState extends State<StatusText> {
 
     if (widget.account == null || widget.account.statusMessage == null) {
       return AutoSizeText(
-        "Breez is ready to receive funds.",
+        "Carrot is ready to receive those sweet sweet sats.",
         style: Theme.of(context).accentTextTheme.bodyText2,
         textAlign: TextAlign.center,
         minFontSize: MinFontSize(context).minFontSize,
